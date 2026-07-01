@@ -1,0 +1,21 @@
+{
+  "schema": "classroom50/classroom/v1",
+  "name": "SN1-gr1090",
+  "short_name": "sn1-gr1090",
+  "term": "A26",
+  "org": "dupontmathieu",
+  "team": {
+    "id": 18287623,
+    "slug": "classroom50-sn1-gr1090"
+  },
+  "teams": {
+    "instructor": {
+      "id": 18287624,
+      "slug": "classroom50-sn1-gr1090-instructor"
+    },
+    "ta": {
+      "id": 18287625,
+      "slug": "classroom50-sn1-gr1090-ta"
+    }
+  }
+}

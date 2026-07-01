@@ -1,6 +1,6 @@
 {
   "schema": "classroom50/classroom/v1",
-  "name": "A26-SN1-gr1090",
+  "name": "SN1-gr1090",
   "short_name": "a26-sn1-gr1090",
   "term": "A26",
   "org": "dupontmathieu",
@@ -17,5 +17,6 @@
       "id": 18287554,
       "slug": "classroom50-a26-sn1-gr1090-ta"
     }
-  }
+  },
+  "onboarding_cleanup": "delete"
 }

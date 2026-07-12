@@ -1,19 +1,4 @@
 {
   "schema": "classroom50/assignments/v1",
-  "assignments": [
-    {
-      "slug": "tp1",
-      "name": "TP1",
-      "mode": "individual",
-      "autograder": "default",
-      "feedback_pr": false,
-      "due": "2026-07-03T13:54:00Z",
-      "due_meta": {
-        "input": "2026-07-03T09:54:00",
-        "zone": "America/Toronto",
-        "offset": "-04:00",
-        "source": "auto-detected"
-      }
-    }
-  ]
+  "assignments": []
 }

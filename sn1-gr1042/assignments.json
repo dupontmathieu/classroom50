@@ -2,32 +2,6 @@
   "schema": "classroom50/assignments/v1",
   "assignments": [
     {
-      "slug": "tp1",
-      "name": "TP1",
-      "mode": "individual",
-      "autograder": "default",
-      "feedback_pr": false,
-      "empty_repo": true,
-      "due": "2026-08-22T03:59:00Z",
-      "due_meta": {
-        "input": "2026-08-21T23:59:00",
-        "zone": "America/Toronto",
-        "offset": "-04:00",
-        "source": "auto-detected"
-      },
-      "available_from": "2026-08-18T03:00:00Z",
-      "available_from_meta": {
-        "input": "2026-08-17T23:00:00",
-        "zone": "America/Toronto",
-        "offset": "-04:00",
-        "source": "auto-detected"
-      },
-      "submission_mode": "every-push",
-      "grading": {
-        "mode": "off"
-      }
-    },
-    {
       "slug": "tp2",
       "name": "TP2",
       "mode": "individual",
@@ -63,6 +37,32 @@
       "available_from": "2026-08-17T16:00:00Z",
       "available_from_meta": {
         "input": "2026-08-17T12:00:00",
+        "zone": "America/Toronto",
+        "offset": "-04:00",
+        "source": "auto-detected"
+      },
+      "submission_mode": "every-push",
+      "grading": {
+        "mode": "off"
+      }
+    },
+    {
+      "slug": "tp1",
+      "name": "TP1",
+      "mode": "individual",
+      "autograder": "default",
+      "feedback_pr": false,
+      "empty_repo": true,
+      "due": "2026-08-18T19:00:00Z",
+      "due_meta": {
+        "input": "2026-08-18T15:00:00",
+        "zone": "America/Toronto",
+        "offset": "-04:00",
+        "source": "auto-detected"
+      },
+      "available_from": "2026-08-18T03:00:00Z",
+      "available_from_meta": {
+        "input": "2026-08-17T23:00:00",
         "zone": "America/Toronto",
         "offset": "-04:00",
         "source": "auto-detected"

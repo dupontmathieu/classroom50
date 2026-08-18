@@ -1,0 +1,26 @@
+{
+  "schema": "classroom50/classroom/v1",
+  "name": "SN1-gr1042",
+  "short_name": "sn1-gr1042",
+  "term": "A26",
+  "org": "dupontmathieu",
+  "team": {
+    "id": 19020319,
+    "slug": "classroom50-sn1-gr1042"
+  },
+  "teams": {
+    "teacher": {
+      "id": 19020320,
+      "slug": "classroom50-sn1-gr1042-teacher"
+    },
+    "hta": {
+      "id": 19020321,
+      "slug": "classroom50-sn1-gr1042-hta"
+    },
+    "ta": {
+      "id": 19020322,
+      "slug": "classroom50-sn1-gr1042-ta"
+    }
+  },
+  "secret": "007sf4vt"
+}

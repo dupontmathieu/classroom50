@@ -52,6 +52,18 @@
       "grading": {
         "mode": "off"
       }
+    },
+    {
+      "slug": "tp3",
+      "name": "TP3",
+      "mode": "individual",
+      "autograder": "default",
+      "feedback_pr": false,
+      "empty_repo": true,
+      "submission_mode": "every-push",
+      "grading": {
+        "mode": "off"
+      }
     }
   ]
 }

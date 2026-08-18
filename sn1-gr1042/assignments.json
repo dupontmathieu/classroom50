@@ -60,6 +60,13 @@
       "autograder": "default",
       "feedback_pr": false,
       "empty_repo": true,
+      "available_from": "2026-08-17T16:00:00Z",
+      "available_from_meta": {
+        "input": "2026-08-17T12:00:00",
+        "zone": "America/Toronto",
+        "offset": "-04:00",
+        "source": "auto-detected"
+      },
       "submission_mode": "every-push",
       "grading": {
         "mode": "off"

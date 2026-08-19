@@ -70,7 +70,8 @@
       "submission_mode": "every-push",
       "grading": {
         "mode": "off"
-      }
+      },
+      "locked": true
     }
   ]
 }

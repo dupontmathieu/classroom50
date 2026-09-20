@@ -96,6 +96,38 @@
       "grading": {
         "mode": "off"
       }
+    },
+    {
+      "slug": "tp5",
+      "name": "TP5",
+      "mode": "individual",
+      "autograder": "default",
+      "feedback_pr": true,
+      "no_autograder": true,
+      "copy_about": true,
+      "copy_topics": true,
+      "template": {
+        "owner": "dupontmathieu",
+        "repo": "420-SN1-A26-TP5",
+        "branch": "main"
+      },
+      "due": "2026-09-28T03:59:00Z",
+      "due_meta": {
+        "input": "2026-09-27T23:59:00",
+        "zone": "America/Toronto",
+        "offset": "-04:00",
+        "source": "auto-detected"
+      },
+      "available_from": "2026-09-20T17:30:00Z",
+      "available_from_meta": {
+        "input": "2026-09-20T13:30:00",
+        "zone": "America/Toronto",
+        "offset": "-04:00",
+        "source": "auto-detected"
+      },
+      "grading": {
+        "mode": "off"
+      }
     }
   ]
 }

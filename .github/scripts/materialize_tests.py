@@ -13,7 +13,7 @@ built-in interpreter (run_declarative).
 Validation lives elsewhere (tests.go at write time, runner.py at grade time),
 so this script stays forgiving: a malformed manifest emits a ::warning:: and is
 skipped rather than failing the Pages deploy. tests.json-vs-autograder.py
-precedence is resolved in ONE place — runner.py's entrypoint resolution — so it
+precedence is resolved in ONE place (runner.py's entrypoint resolution) so it
 isn't special-cased here.
 """
 
@@ -31,7 +31,7 @@ TESTS_FILENAME = "tests.json"
 # Mirror validate.ShortNamePattern in cli/gh-teacher/internal/validate/validate.go.
 # The slug becomes a directory path here, so a traversal-style slug must be
 # rejected before it reaches mkdir.
-SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]{1,38}$")
+SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]{1,99}$")
 
 
 def materialize(root: pathlib.Path) -> int:
@@ -70,10 +70,26 @@ def materialize(root: pathlib.Path) -> int:
 
             outdir = root / classroom / "autograders" / slug
             outdir.mkdir(parents=True, exist_ok=True)
+            target = outdir / TESTS_FILENAME
+            if target.exists():
+                # Only a hand-committed file can be here: this script runs on a
+                # fresh checkout. The assignment's own tests win, so say so in
+                # the run log instead of clobbering silently.
+                print(f"::warning::{target}: replaced by the tests stored on the "
+                      f"assignment. tests.json is generated at publish time; remove "
+                      f"the committed copy and manage tests with the web assignment "
+                      f"form, `gh teacher assignment test add`, or "
+                      f"`gh teacher assignment test set --tests FILE`.")
             payload = {"schema": TESTS_SCHEMA_V1, "tests": tests}
-            (outdir / TESTS_FILENAME).write_text(
+            # Assignment-level defaults for the per-test reporting options
+            # (failure-details / show-output / show-command) ride the envelope; runner.py's
+            # load_tests folds them into each spec at grade time.
+            defaults = entry.get("test_defaults")
+            if isinstance(defaults, dict) and defaults:
+                payload["defaults"] = defaults
+            target.write_text(
                 json.dumps(payload, indent=2) + "\n", encoding="utf-8")
-            print(f"materialized {outdir / TESTS_FILENAME} ({len(tests)} test(s))")
+            print(f"materialized {target} ({len(tests)} test(s))")
             written += 1
     return written
 

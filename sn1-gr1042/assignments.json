@@ -86,6 +86,13 @@
         "offset": "-04:00",
         "source": "auto-detected"
       },
+      "available_from": "2026-09-20T16:49:00Z",
+      "available_from_meta": {
+        "input": "2026-09-20T12:49:00",
+        "zone": "America/Toronto",
+        "offset": "-04:00",
+        "source": "auto-detected"
+      },
       "grading": {
         "mode": "off"
       }

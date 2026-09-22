@@ -15,9 +15,9 @@
         "repo": "420-SN1-A26-TP1",
         "branch": "main"
       },
-      "due": "2026-10-01T03:59:00Z",
+      "due": "2026-10-07T03:59:00Z",
       "due_meta": {
-        "input": "2026-09-30T23:59:00",
+        "input": "2026-10-06T23:59:00",
         "zone": "America/Toronto",
         "offset": "-04:00",
         "source": "auto-detected"
@@ -29,10 +29,10 @@
         "offset": "-04:00",
         "source": "auto-detected"
       },
-      "locked": true,
       "grading": {
         "mode": "off"
-      }
+      },
+      "locked": true
     }
   ]
 }

@@ -29,7 +29,6 @@
         "offset": "-04:00",
         "source": "auto-detected"
       },
-      "locked": true,
       "grading": {
         "mode": "off"
       }

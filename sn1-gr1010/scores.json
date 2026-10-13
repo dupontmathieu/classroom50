@@ -1,4 +1,145 @@
 {
   "schema": "classroom50/scores/v1",
-  "assignments": {}
+  "assignments": {
+    "tp1": {
+      "type": "individual",
+      "entries": [],
+      "collected_at": "2026-10-13T23:38:50Z",
+      "detected": [
+        {
+          "owner": "AlexandreDussault",
+          "count": 5,
+          "latest_datetime": "2026-10-06T05:42:46Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "alicialkc",
+          "count": 8,
+          "latest_datetime": "2026-10-06T18:24:52Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "anaissp",
+          "count": 7,
+          "latest_datetime": "2026-10-05T19:28:08Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "evelynebenoitmartin",
+          "count": 12,
+          "latest_datetime": "2026-10-05T14:24:31Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "flopoisson",
+          "count": 7,
+          "latest_datetime": "2026-10-07T02:26:08Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "GabPaqu",
+          "count": 8,
+          "latest_datetime": "2026-10-06T19:28:23Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "jessrob7",
+          "count": 11,
+          "latest_datetime": "2026-10-07T01:40:17Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "Marc-Antoine20",
+          "count": 8,
+          "latest_datetime": "2026-09-30T21:19:34Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "MathisC4",
+          "count": 8,
+          "latest_datetime": "2026-10-01T12:15:33Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "Maylie19",
+          "count": 9,
+          "latest_datetime": "2026-09-28T21:25:51Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "melissakouradj",
+          "count": 11,
+          "latest_datetime": "2026-09-30T19:26:38Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "NathPoulin",
+          "count": 6,
+          "latest_datetime": "2026-09-30T13:11:10Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "Philip-Shabalin",
+          "count": 15,
+          "latest_datetime": "2026-10-07T00:48:24Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "Rocker-prog",
+          "count": 8,
+          "latest_datetime": "2026-09-30T19:12:06Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "rose1812458",
+          "count": 11,
+          "latest_datetime": "2026-10-06T21:44:12Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "rosemarieboucher",
+          "count": 8,
+          "latest_datetime": "2026-10-07T02:19:25Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "vincent123456-droid",
+          "count": 12,
+          "latest_datetime": "2026-10-06T18:43:53Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "WilliamKemtchuain",
+          "count": 6,
+          "latest_datetime": "2026-10-05T10:49:08Z",
+          "late": false,
+          "kind": "commit"
+        },
+        {
+          "owner": "willschmidt42",
+          "count": 8,
+          "latest_datetime": "2026-09-30T13:59:21Z",
+          "late": false,
+          "kind": "commit"
+        }
+      ]
+    }
+  }
 }

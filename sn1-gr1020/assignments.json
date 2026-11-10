@@ -32,6 +32,38 @@
       "grading": {
         "mode": "off"
       }
+    },
+    {
+      "slug": "tp2",
+      "name": "TP2",
+      "mode": "individual",
+      "autograder": "default",
+      "feedback_pr": false,
+      "no_autograder": true,
+      "copy_about": true,
+      "copy_topics": true,
+      "template": {
+        "owner": "dupontmathieu",
+        "repo": "420-SN1-A26-TP2",
+        "branch": "main"
+      },
+      "due": "2026-12-02T04:59:00Z",
+      "due_meta": {
+        "input": "2026-12-01T23:59:00",
+        "zone": "America/Toronto",
+        "offset": "-05:00",
+        "source": "auto-detected"
+      },
+      "available_from": "2026-11-10T21:20:00Z",
+      "available_from_meta": {
+        "input": "2026-11-10T16:20:00",
+        "zone": "America/Toronto",
+        "offset": "-05:00",
+        "source": "auto-detected"
+      },
+      "grading": {
+        "mode": "off"
+      }
     }
   ]
 }
